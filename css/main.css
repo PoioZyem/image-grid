@@ -27,14 +27,22 @@ img {
   flex-wrap: wrap;
 }
 
-.photo {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 @media only screen and (min-width: 25em) {
 
   .photo {
+    width: 50%;
+  }
+  .photo:nth-child(2),
+  .photo:nth-child(5) {
+    display: none;
+  }
 
+}
+
+@media only screen and (min-width: 38em) {
+
+  .photo {
+    width: 33.3333%
+    display:flex;
   }
 }
