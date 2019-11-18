@@ -55,7 +55,6 @@ section {
   .photo:nth-child(5) {
     width: 50%;
     display: block;
-
   }
 
 }
@@ -84,7 +83,7 @@ section {
 
   .photo:nth-child(1) {
     width: 66.6666%;
-    display: flex;
+    display: block;
   }
 
   .photo:nth-child(2),
